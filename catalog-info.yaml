@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: petstore
+  description: Swagger Petstore
+spec:
+  type: openapi
+  lifecycle: production
+  owner: swagger
+  definition:
+    $text: ./openapi.yaml

@@ -1,0 +1,7 @@
+# Path parameters
+petId:
+  $ref: "./path/petId.yaml"
+
+# Query parameters
+limit:
+  $ref: "./query/limit.yaml"

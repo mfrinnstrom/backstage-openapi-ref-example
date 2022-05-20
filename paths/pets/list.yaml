@@ -1,0 +1,18 @@
+summary: List all pets
+operationId: listPets
+tags:
+  - pets
+parameters:
+  - $ref: "../../parameters/query/limit.yaml"
+responses:
+  "200":
+    description: A paged array of pets
+    headers:
+      x-next:
+        $ref: "../../headers/x-next.yaml"
+    content:
+      application/json:
+        schema:
+          $ref: "../../schemas/Pets.yaml"
+    default:
+      $ref: "../../responses/UnexpectedError.yaml"
