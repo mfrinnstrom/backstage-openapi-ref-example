@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: vehicle-search-team
   definition:
-    $text: ./openapi.yaml
+    $text: ./spec/openapi.yaml
