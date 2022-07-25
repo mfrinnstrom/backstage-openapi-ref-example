@@ -10,12 +10,12 @@ servers:
 paths:
   /pets:
     get:
-      $ref: "./paths/pets/list.yaml"
+      $ref: "./paths/pets/list-pets.yaml"
     post:
-      $ref: "./paths/pets/create.yaml"
+      $ref: "./paths/pets/create-pet.yaml"
   /pets/{petId}:
     get:
-      $ref: "./paths/pets/show.yaml"
+      $ref: "./paths/pets/show-pet.yaml"
 
 components:
   parameters:
