@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: swagger
   definition:
-    $text: ./openapi.yaml
+    $openapi: ./openapi.yaml
